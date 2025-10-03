@@ -1,0 +1,54 @@
+basket:
+  name: oih_basket
+  etf: OIH
+  components:
+    SLB: 0.18        # Schlumberger Nv
+    BKR: 0.10        # Baker Hughes Co
+    HAL: 0.12        # Halliburton Co
+    FTI: 0.08        # Technipfmc Plc
+    TS: 0.05         # Tenaris Sa
+    WFRD: 0.05       # Weatherford International Plc
+    NOV: 0.06        # Nov Inc
+    NE: 0.04         # Noble Corp Plc
+    VAL: 0.05        # Valaris Ltd
+    TDW: 0.05        # Tidewater Inc
+    WHD: 0.03        # Cactus Inc
+    RIG: 0.03        # Transocean Ltd
+    OII: 0.02        # Oceaneering International Inc
+    PTEN: 0.05       # Patterson-Uti Energy Inc
+    HP: 0.02         # Helmerich & Payne Inc
+    LBRT: 0.02       # Liberty Energy Inc
+    XPRO: 0.02       # Expro Group Holdings Nv
+    WTTR: 0.02       # Select Energy Services Inc
+    HLX: 0.02        # Helix Energy Solutions Group Inc
+    DRQ: 0.02        # Dril-Quip Inc
+    NBR: 0.02        # Nabors Industries Ltd
+    RES: 0.02        # Rpc Inc
+    PUMP: 0.02       # Propetro Holding Corp
+    CLB: 0.02        # Core Laboratories Inc
+  bias: 0.0
+  multiplier: 1.0
+
+strategy:
+  timeframe: 1Min
+  lookback: 120
+  entry_z: 1.5
+  exit_z: 0.25
+  max_leg_notional: 4000
+  max_total_notional: 25000
+  side: pairs
+  order_type: limit
+  limit_slip_bps: 5
+  tif: ioc
+  rebalance_each_bar: false
+
+risk:
+  allow_shorts: true
+  max_gross_exposure: 75000
+  max_symbol_notional: 20000
+  cancel_after_sec: 3
+  kill_switch_drawdown_pct: 5.0
+
+data:
+  start: '2024-09-01'
+  end: '2025-08-26'
