@@ -40,6 +40,6 @@ Welcome to the repo of the Quantitative Trading Club @ Loyola
 
 - Break down exchange by market participant volume
 
-- 
+
 
 Our repo will be partioned by group projects. Please respect the folder system so we can keep this space organized.
