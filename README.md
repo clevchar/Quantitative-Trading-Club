@@ -1,6 +1,10 @@
 Welcome to the repo of the Quantitative Trading Club @ Loyola
 
+
+
+
 Here are some resources or reccomended problems for members: 
+
 
 TOPICS OF INTEREST
 Market neutral strategies (statistical arbitrage, pairs trading, parity, hedging…)
@@ -20,6 +24,8 @@ Energy correlated trading (sunlight/ weather index impact on crop futures, relat
 Hedging (delta, gamma, synthetic spreads, deep hedging)
 
 Hidden Markov Models (stochastic matrices, steady states, recursive probability)
+
+
 
 Easy projects ideas:
 
