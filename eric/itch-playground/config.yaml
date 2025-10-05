@@ -1,0 +1,4 @@
+sample_gz: ./01302020.NASDAQ_ITCH50.gz
+dest_ip: 127.0.0.1
+dest_port: 9000
+burst_chunk: 1400
