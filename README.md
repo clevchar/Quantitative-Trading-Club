@@ -1,45 +1,27 @@
-Welcome to the repo of the Quantitative Trading Club @ Loyola
+# Quantitative Trading Club at Loyola
 
+Welcome to the repository for the Quantitative Trading Club at Loyola University Chicago.
 
+## Resources and Recommended Topics
 
+### Topics of Interest
 
------Here are some resources or reccomended problems for members:-----
+- Market-neutral strategies, including statistical arbitrage, pairs trading, parity relationships, and hedging
+- Stochastic processes, including Brownian motion, Poisson processes, stochastic volatility, and Black-Scholes-Merton
+- Implied volatility, including BSM inversion, volatility skew and surfaces, SABR, and Bayesian ridge regression
+- Least Squares Monte Carlo, including early exercise and optimal stopping
+- Order book imbalance, including buy and sell pressure, order scaling, and imbalance-weighted midprices
+- Sentiment analysis, including web parsing, large language models, and sentiment indicators
+- Energy and commodity trading, including weather and sunlight indices, crop futures, and relative scarcity
+- Hedging, including delta, gamma, synthetic spreads, and deep hedging
+- Hidden Markov Models, including transition matrices, steady states, and recursive probability methods
 
+## Introductory Project Ideas
 
-***TOPICS OF INTEREST***
+- Define and implement the Black-Scholes-Merton model and implied volatility
+- Build a Least Squares Monte Carlo simulation using Brownian motion, Heston, or Bates dynamics
+- Explain and implement delta hedging
+- Pull one year of historical IEX data and visualize potentially cointegrated equities across 1-day, 1-month, and 1-year horizons using Alpaca
+- Analyze exchange volume by market participant type
 
-- Market neutral strategies (statistical arbitrage, pairs trading, parity, hedging…)
-
-- Stochastic processes (Brownian motion, Poisson processes, stochastic volatility, BSM)
-
-- Implied Volatility (inversion of BSM, Skew vs 3D, SABR, Bayesian ridge regression)
-
-- Least Squares Monte Carlo (account for early exercise, define optimal stopping policy)
-
-- Order book imbalance (buy/sell side pressure, order scaling, inverse OBI weighted midprice)
-
-- Sentiment analysis (web parsing, LLMs, Sentiment quotients)
-
-- Energy correlated trading (sunlight/ weather index impact on crop futures, relative scarcity)
-
-- Hedging (delta, gamma, synthetic spreads, deep hedging)
-
-- Hidden Markov Models (stochastic matrices, steady states, recursive probability)
-
-
-
-***Easy projects ideas:***
-
-- BSM and IV definition
-
-- Least Squares Monte Carlo simulation of Brownian Motion (BSM, Heston, Bates) 
-
-- Delta Hedging definition and explanation
-
-- IEX 1 year historical data pull and plot cointegrated equities at different perspectives (1D,1M,1Y) (alpaca)
-
-- Break down exchange by market participant volume
-
-
-
-Our repo will be partioned by group projects. Please respect the folder system so we can keep this space organized.
+This repository is partitioned by group project. Please respect the folder structure so we can keep the workspace organized and easy to navigate.
